@@ -1,0 +1,24 @@
+body {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../static/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This makes the body fill the viewport height. */
+  width:100vw;
+  margin: 0;
+  filter: brightness(0%);
+}
+button {
+  background-color: blue !important;
+}
+
+/* Increase specificity to override Bootstrap */
+body button {
+  background-color: blue !important;
+}
