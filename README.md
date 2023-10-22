@@ -27,7 +27,7 @@ Before you begin, make sure you have the following software installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/house-prediction-system.git
+   git clone https://github.com/Mrinalkbanik01/House_Prediction.git
 Change to the project directory:
 
 bash
