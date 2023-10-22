@@ -1,24 +1,27 @@
 body {
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url("../static/background.png");
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  ),
+  url("../static/images/background.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* This makes the body fill the viewport height. */
-  width:100vw;
+  height: 100vh;
+  width: 100vw;
   margin: 0;
   filter: brightness(0%);
 }
-button {
+
+button.btn-primary {
   background-color: blue !important;
+  color: white !important;
+  border: none !important;
 }
 
 /* Increase specificity to override Bootstrap */
-body button {
+body button.btn-primary {
   background-color: blue !important;
+  color: white;
+  border: none;
 }
